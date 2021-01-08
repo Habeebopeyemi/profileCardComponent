@@ -1,0 +1,96 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+:root{
+          --fontsz: 0.6rem;
+          --darkGrayish: hsl(227, 10%, 46%);
+          --darkCyan: hsl(185, 75%, 39%);
+          --darkBlue: hsl(229, 23%, 23%);
+
+          --garkGray: hsl(0, 0%, 59%);
+
+          --bodyFontsz: 0.8rem;
+          --font-family: sans-serif;
+          --fontColor: hsl(228, 45%, 44%); 
+          --font-weightMedium: 400;
+          --font-weightLarge: 700;
+          --alignment: center;
+}
+
+*{
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+}
+body{
+          background-color: var(--darkCyan);
+          background-image: url("image/bg-pattern-bottom.svg");
+}
+.container{
+          width: 30%;
+          position: relative;
+          background: white;
+          border-radius: 20px;
+          margin: 0 auto;
+}
+.top{
+          width: 100%;
+}
+.top-bg{
+          width: 100%;
+          border-radius: 20px 20px 0 0;
+}
+.middle{
+          text-align: center;
+          width: 100%;
+          /* padding-bottom: 2rem; */
+}
+.middle-bg{
+          border-radius: 50%;
+          transform: translateY(-3.125rem);
+          border: 5px solid white;
+          margin-bottom: 0;
+          /* width: 35%;
+          height: 35%; */
+}
+.victor{
+          transform: translateY(-3rem);
+}
+span{
+          color: var(--garkGray);
+}
+hr{
+          background: var(--garkGray);
+          /* margin-top: 4rem; */
+}
+.footer{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          padding: 0.5rem;
+
+}
+.stat{
+          text-align: center;
+}
+h3{
+          font-size: var(--bodyFontsz);
+          font-family: var(--font-family);
+          margin: 0.3rem 0;
+}
+h4{
+          color: var(--garkGray);
+          font-family: var(--font-family);
+          margin: 0.5rem 0;
+}
+p{
+          font-size: var(--fontsz);
+          color: var(--garkGray);
+          font-family: var(--font-family);
+          margin: 0.5rem 0;
+}
+.attribution { font-size: 11px; text-align: center; margin: 1rem; }
+.attribution a { color: hsl(228, 45%, 44%);outline: none; }
