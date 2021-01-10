@@ -12,6 +12,7 @@
           --font-weightMedium: 400;
           --font-weightLarge: 700;
           --alignment: center;
+          --mobile: 375px;
 }
 *{
           box-sizing: border-box;
@@ -20,7 +21,7 @@
 }
 
 body{
-          width: 100vh;
+          /* width: 100vh; */
           background-color: var(--darkCyan);
           margin: auto;
 }
@@ -49,7 +50,7 @@ body{
           transform: rotate(-90deg);
 }
 .container{
-          width: 50%;
+          width: 50vh;
           border-radius: 0.8rem;
           background-color: aliceblue;
           position: relative;
